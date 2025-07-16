@@ -1,0 +1,63 @@
+
+.inter-uniquifier{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between; /* Aligns logo, links, and buttons */
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+}
+.nav-links{
+    display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  font-size: 1.5em;
+  font-weight: bold
+}
+.sign-up{
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.log-in {
+  background-color: #fff;
+  color: #007BFF;
+  border: 1px solid #007BFF;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search-icon {
+  font-size: 1.2em;
+}
+
+.banner{
+    background-image: url(../images/Camera.jpg);
+    background-size:cover;
+    background-position: center;           /* Centers the image */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
